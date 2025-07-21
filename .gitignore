@@ -1,0 +1,22 @@
+# Build directories
+src/
+pkg/
+
+# Package files
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.pkg.tar.gz
+
+# Downloaded source tarballs
+*.tar.gz
+*.tar.xz
+
+# Test and debug artifacts
+*debug*
+test.*
+
+# Editor/OS files
+*~
+*.swp
+*.swo
+.DS_Store 
