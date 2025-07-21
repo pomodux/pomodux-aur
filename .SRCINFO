@@ -1,14 +1,14 @@
 pkgbase = pomodux
 	pkgdesc = A command-line Pomodoro timer with persistent sessions and plugin support
-	pkgver = 0.3.2
+	pkgver = 0.4.0
 	pkgrel = 1
-	url = https://github.com/rsmacapinlac/pomodux
+	url = https://github.com/pomodux/pomodux
 	arch = x86_64
 	license = MIT
 	makedepends = go
 	makedepends = git
 	depends = glibc
-	source = pomodux-0.3.2.tar.gz::https://github.com/rsmacapinlac/pomodux/archive/v0.3.2.tar.gz
+	source = pomodux-0.4.0.tar.gz::https://github.com/pomodux/pomodux/archive/v0.4.0.tar.gz
 	sha256sums = SKIP
 
 pkgname = pomodux
