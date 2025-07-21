@@ -1,21 +1,19 @@
 # Maintainer: Ritchie <ritchie@macapinlac.com>
 pkgname=pomodux
-pkgver=0.3.0
+pkgver=0.3.2
 pkgrel=1
 pkgdesc="A command-line Pomodoro timer with persistent sessions and plugin support"
 arch=('x86_64')
 url="https://github.com/pomodux/pomodux"
 license=('MIT')
-source=("$pkgname-$pkgver.tar.gz::https://github.com/pomodux/pomodux/archive/main.tar.gz")
-sha256sums=('a36a6dbccb9706e4c2c510b3d3a1d68aa8418f9bd93d2a4d3c21ed045652a6e5')
+source=("$pkgname-$pkgver.tar.gz::https://github.com/pomodux/pomodux/archive/v$pkgver.tar.gz")
+sha256sums=('SKIP')
 depends=('glibc')
 makedepends=('go' 'git')
 
 prepare() {
   # Extract source tarball
   tar -xzf "$pkgname-$pkgver.tar.gz"
-  # Rename the extracted directory from main to the expected name
-  mv pomodux-main "$pkgname-$pkgver"
 }
 
 build() {
