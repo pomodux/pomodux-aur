@@ -19,7 +19,7 @@ prepare() {
 build() {
   cd "$pkgname-$pkgver"
   export CGO_ENABLED=0
-  go build -ldflags="-s -w -X main.Version=$pkgver" -o "$pkgname" cmd/pomodux/main.go
+  go build -ldflags="-s -w -X github.com/pomodux/pomodux/internal/cli.Version=$pkgver" -o "$pkgname" cmd/pomodux/main.go
 }
 
 package() {
