@@ -1,13 +1,13 @@
 # Maintainer: Ritchie <ritchie@macapinlac.com>
 pkgname=pomodux
-pkgver=0.4.0
+pkgver=0.4.2
 pkgrel=1
 pkgdesc="A command-line Pomodoro timer with persistent sessions and plugin support"
 arch=('x86_64')
 url="https://github.com/pomodux/pomodux"
 license=('MIT')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/pomodux/pomodux/archive/v$pkgver.tar.gz")
-sha256sums=('SKIP')
+sha256sums=('9358ceecfad91c7b892a8b2d9c59f0b2327cb49818363106fe8dbd774af2412e')
 depends=('glibc')
 makedepends=('go' 'git')
 
